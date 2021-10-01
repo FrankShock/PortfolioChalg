@@ -22,8 +22,7 @@ header {
   position: -webkit-sticky;
   top: 0;
   background-image: url("../images/code\ background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+   background-attachment: fixed;
   background-position: 80%;
 }
 
@@ -37,7 +36,7 @@ header h1 {
 
 header a {
   text-decoration: none;
-  color: #2f62ec;
+  color: #bcc9ec;
 }
 
 header nav {
@@ -72,7 +71,7 @@ header nav ul li a:hover {
 
 /* FOOTER STYLES START */
 footer {
-  background: #fce138;
+  background-image: url("../images/code\ background.jpg");
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
@@ -81,7 +80,7 @@ footer {
 }
 
 footer h2 {
-  color: #024e76;
+  color: #bcc9ec;
   font-size: 30px;
   margin: 0;
 }
@@ -92,7 +91,32 @@ footer div {
 }
 
 footer a {
+  color: #bcc9ec;
+}
+footer nav {
+  margin: 7px 0;
+}
+
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+footer nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer nav ul li a:hover {
+  background: #fce138;
   color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
 }
 /* END FOOTER STYLES */
 
@@ -104,7 +128,7 @@ section {
 /* HERO STYLES START */
 .hero {
   background-image: url('../images/code\ background.jpg');
-  background-size: cover;
+  background-size: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -137,7 +161,7 @@ section {
 .section-title {
   font-size: 48px;
   border-bottom: 3px solid;
-  color: #024e76;
+  color: #023550;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
@@ -155,6 +179,9 @@ section {
 
 /* WHAT WE DO STYLES */
 
+.intro {
+  background-color: rgb(127, 133, 133);
+}
 .intro p {
   line-height: 1.7;
   color: #313cdf;
@@ -168,10 +195,10 @@ section {
 
 /* WHAT YOU DO STYLES START */
 .works { 
-  background: #5aebc6;
+  background: #0b59a1;
 }
 
-.step {
+.work {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
@@ -182,45 +209,48 @@ section {
   justify-content: space-between;
 }
 
-.step:last-child {
+.work:last-child {
   border-bottom: none;
 }
 
-.step h3 {
-  color: #024e76;
-  font-size: 46px;
-  flex: 1 30%;
-}
 
-.step-info {
+.work-info {
   flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.step-img {
+.work-img {
   flex: 1 12%;
-  margin-right: 20px;
+ 
 }
 
-.step-img img {
-  max-width: 100%;
+.work-img img {
+  max-width: 200%;
+  border: #024e76;
 }
-
-.step-text {
+.work-img img:hover {
+  background: #fce138;
+  color: #024e76;
+  max-width: 230%;
+  border-radius:51px;
+  text-shadow: none;
+}
+.work-text {
   flex: 12;
+ text-align: center;
 }
 
-.step-text p {
+.work-text p {
   color: #39a6b2;
   font-size: 18px;
 }
 
-.step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color: #024e76;
+.work-text h4 {
+  color: #023550;
+  font-size: 46px;
+  flex: 1 30%;
 }
 /* WHAT YOU DO STYLES END */
 
@@ -235,6 +265,7 @@ section {
 }
 
 .contact-info {
+text-align: center;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -243,10 +274,6 @@ section {
 .contact-info > * {
   flex: 1;
   margin: 15px;
-}
-
-.contact-info iframe {
-  height: 400px;
 }
 
 .contact-info div {
@@ -265,23 +292,7 @@ section {
   font-style: normal;
 }
 
-.contact-form input, .contact-form textarea {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width: 100%;
-  margin-bottom: 15px;
-  margin-top: 5px;
-  border-radius: 10px;
-  background-color: rgba(255,255,255, 0.75);
-}
 
-.contact-form input:focus, .contact-form textarea:focus {
-  background-color: rgb(238, 184, 9);
-  outline: none;
-}
 
 .contact-form button {
   width: 100%;
@@ -372,25 +383,25 @@ section {
     padding: 30px 15px;
   }
 
-  .step h3 {
+  .work h3 {
     flex: 1 100%;
     text-align: center;
   }
 
-  .step-info {
+  .work-info {
     flex: 2 100%;
     text-align: center;
     justify-content: center;
   }
 
-  .step-img {
+  .work-img {
     flex: 0 32%;
     margin-right: 0;
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
-  .step-text {
+  .work-text {
     flex: 100%;  
   }
 
