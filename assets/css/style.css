@@ -453,21 +453,20 @@ text-align: center;
   .contact-info > * {
     flex: 0 100%;
   }
-
-
   .work-img1 {
     align-items: left;
-    flex: 0 50%;
-    max-width: 220%;
-    margin-right: 0;
+    flex: auto;
+    max-width: 1000%;
+    margin-right: 260px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
   .work-img {
     align-items: left;
-    flex: 0 50%;
-    max-width: 220%;
-    margin-right: 0;
+    flex: 1 10%;
+    width: 300px;
+    max-width: 500%;
+    margin-right: 260px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
