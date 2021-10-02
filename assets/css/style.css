@@ -10,7 +10,7 @@ body {
 }
 
 
-/* HEADER / NAV BAR STYLES START */
+/* header/NAV START */
 
 header {
   padding: 20px 35px;
@@ -67,7 +67,7 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
-/* HEADER / NAVBAR STYLES END */
+/* header/NAV END */
 
 
 
@@ -127,7 +127,7 @@ section {
   padding: 60px;
 }
 
-/* HERO STYLES START */
+/* HERO START */
 .hero {
   background-image: url('../images/code\ background.jpg');
   background-size: auto;
@@ -151,7 +151,7 @@ section {
   border-radius: 15px;
 }
 
-/* HERO STYLES END */
+/* HERO END */
 
 
 /* SECTION TITLE STYLES START */
@@ -190,7 +190,7 @@ section {
 /* intro END */
 
 
-/* WHAT YOU DO STYLES START */
+/* WORKS START */
 .works { 
   background: #0b59a1;
 }
@@ -232,7 +232,7 @@ section {
   display: flex;
 }
 .work-img img {
-  max-width: 190%;
+  max-width: 175%;
   border: #024e76;
   display: flex;
  
@@ -268,10 +268,10 @@ section {
   font-size: 46px;
   flex: 1 30%;
 }
-/* WHAT YOU DO STYLES END */
+/* WORKS END */
 
 
-/* REACH OUT STYLES START */
+/* CONTACT START */
 .contact {
   background: #0b59a1;
 }
@@ -313,7 +313,7 @@ text-align: center;
 .contact-info a {
   color: #fce138;
 }
-/* REACH OUT STYLES END */
+/* CONTACT END */
 
 /* UTILITIES */
 
@@ -356,22 +356,15 @@ text-align: center;
     text-align: center;
     width: 100%;
   }
-
-  .hero-cta, .hero-form {
+ .hero-form {
     width: 50%;
-  }
-  
-  .hero-cta {
-    text-align: center;
   }
 
   .section-title {
     width: 80%;
   }
+
   
-  .trainer {
-    flex: 0 70%;
-  }
   .work-img1 img {
     max-width: 220%;
     border: #024e76;
@@ -453,10 +446,6 @@ text-align: center;
     width: 100%;
   }
 
-  .trainer {
-    flex: 0 100%;
-  }
-
   .contact-info {
     text-align: center;
   }
@@ -465,9 +454,7 @@ text-align: center;
     flex: 0 100%;
   }
 
-  .contact-form {
-    order: 3;
-  }
+
   .work-img1 {
     align-items: left;
     flex: 0 50%;
