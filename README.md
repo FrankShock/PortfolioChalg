@@ -13,9 +13,9 @@ My name is Frank Schockey and I am a creative Web Developer/3D professional with
 * CSS
 
 ## Repository Link
-https://github.com/FrankShock/Refactor
+https://github.com/FrankShock/PortfolioChalg
 ## Website
-https://frankshock.github.io/Refactor/
+https://frankshock.github.io/PortfolioChalg/
 
 
 ### ©2021 Frank Schockey's Protfolio 
